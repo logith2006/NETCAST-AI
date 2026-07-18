@@ -227,7 +227,9 @@ app.get('/api/network/status/:ip', async (req, res) => {
       uploadSpeed: latestLog.uploadSpeed,
       isOnline: latestLog.latency > 0,
       healthStatus: latestLog.downloadSpeed > 40 ? "Healthy" : latestLog.downloadSpeed > 15 ? "Degraded" : "Critical",
-      isSpeedTestRunning
+      isSpeedTestRunning,
+      jitter: Math.floor(Math.random() * (8 - 2 + 1) + 2), // Mock jitter 2-8ms
+      packetLoss: (Math.random() * 1.5).toFixed(1), // Mock packet loss 0-1.5%
     });
   } catch (err) {
     res.status(500).json({ error: 'Server error' });
