@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Connective</string>
+    <string name="title_activity_main">Connective</string>
+    <string name="package_name">com.connective.app</string>
+    <string name="custom_url_scheme">com.connective.app</string>
+</resources>

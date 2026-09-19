@@ -1,0 +1,9 @@
+{
+  "appId": "com.netisim.app",
+  "appName": "NETISIM",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

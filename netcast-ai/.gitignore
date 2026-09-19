@@ -1,0 +1,36 @@
+# Dependencies - node_modules romba perusa irukkum (500MB+), GitHub ku venaam
+node_modules/
+
+# Build output - npm run build panna varura files
+dist/
+dist-ssr/
+build/
+
+# Environment variables - API keys, passwords - NEVER upload to GitHub
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor files - VS Code settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files - Windows/Mac auto create pannum
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vite cache
+.vite/
+*.local
